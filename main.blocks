@@ -1,0 +1,13 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id=":{sh~oBjV/esDc4J}GDv">luz</variable></variables><block type="pxt-on-start" id="0QVp0vO3MOLKP,JHd|F(" x="0" y="0"/><block type="device_forever" id="ho^igUf:=.%X=(Nmw)A;" x="205" y="0"/><block type="input_on_sound" id="(++nn8lmdsiEYcwd{n,L" x="406" y="125"><field name="sound">DetectedSound.Loud</field><statement name="HANDLER"><block type="controls_if" id="*,g;,B?K:5P/oi2FFMG`"><mutation else="1"/><value name="IF0"><shadow type="logic_boolean"><field name="BOOL">TRUE</field></shadow><block type="logic_compare" id="Y/mgrFYYmqJH]jSgp9r."><field name="OP">EQ</field><value name="A"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="variables_get" id="i(xIo13D:!m1*VK6x7S|"><field name="VAR" id=":{sh~oBjV/esDc4J}GDv">luz</field></block></value><value name="B"><shadow type="math_number" id="EPV9=2KwGV+51E[/byY="><field name="NUM">0</field></shadow></value></block></value><statement name="DO0"><block type="variables_set" id="aHuUI]Mr;Ui$wtDXUdZC"><field name="VAR" id=":{sh~oBjV/esDc4J}GDv">luz</field><value name="VALUE"><shadow type="math_number" id="s?$ExL_Y/QdJQUd!cgvn"><field name="NUM">1</field></shadow></value><next><block type="device_show_leds" id="=eTJd7D-tAv%vt[p9i04"><field name="LEDS">`
+        # # # # # 
+        # # # # # 
+        # # # # # 
+        # # # # # 
+        # # # # #
+        `</field><next><block type="device_set_digital_pin" id="::6y9ForNUv3FX3;dptC"><field name="name">DigitalPin.P0</field><value name="value"><shadow type="math_number_minmax" id="]fLU5:c3k=jV/H$S:nX?"><mutation min="0" max="1" label="Value" precision="0"/><field name="SLIDER">1</field></shadow></value></block></next></block></next></block></statement><statement name="ELSE"><block type="variables_set" id="P2o=-Co7|t5U;29;QrNF"><field name="VAR" id=":{sh~oBjV/esDc4J}GDv">luz</field><value name="VALUE"><shadow type="math_number" id=")GTJlmD2U(Zq%n_,+-RM"><field name="NUM">0</field></shadow></value><next><block type="device_show_leds" id="#?+y*i{DLVHS$D02=FVb"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . .
+        `</field><next><block type="device_set_digital_pin" id="`u)(e0Yi({eS_s,)i+lP"><field name="name">DigitalPin.P0</field><value name="value"><shadow type="math_number_minmax" id="s2~$)MOGyd#O?;^!)K,9"><mutation min="0" max="1" label="Value" precision="0"/><field name="SLIDER">0</field></shadow></value></block></next></block></next></block></statement></block></statement></block></xml>
